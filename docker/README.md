@@ -12,4 +12,3 @@ Once keycloak container is started, add an admin account with following command 
 
     docker exec naq-keycloak-server keycloak/bin/add-user-keycloak.sh -u admin -p password
     
- 
