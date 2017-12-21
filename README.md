@@ -1,5 +1,6 @@
-# naq-keycloak-theme
-Theme for keycloak auth server
+# naq-keycloak
 
-This theme can be put in [keycloak dir]/themes, and then selected from the admin panel in keycloak.
-Designed to be used with the Okina keycloak docker image, but can serve as a base for a custom theme.
+Build files for keycloak server.
+
+Contains docker compose file and keycloak theme. See within directories for detailed instructions.
+
