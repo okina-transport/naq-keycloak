@@ -8,4 +8,8 @@ The compose file will pull a keycloak docker file from Okina's repo. You can use
 Keycloak docker image simply has _naq_ directory created within _keycloak/themes_ directory, and this dir is mounted by compose onto the naq_theme directory.
 
 
+Once keycloak container is started, add an admin account with following command :
 
+    docker exec naq-keycloak-server keycloak/bin/add-user-keycloak.sh -u admin -p password
+    
+ 
