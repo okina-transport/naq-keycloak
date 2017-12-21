@@ -2,7 +2,7 @@ version: '3'
 
 services:
   keycloak:
-    image: "registry.okina.fr/na/keycloak"
+    image: "registry.okina.fr/na/naq-keycloak-server:v1.0"
     volumes:
       - ../naq_theme:/opt/jboss/keycloak/themes/naq
     ports:
