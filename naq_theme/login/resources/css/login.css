@@ -1,12 +1,12 @@
 .login-pf body {
-    background: #0f0f0f url("../img/137813063.jpeg") top left no-repeat;
-    background-size: cover;
+    background-color: #FFFFFF !important;
+    background-image: none;
 }
 
 .alert-error {
     background-color: #ffffff;
     border-color: #cc0000;
-    color: #333333;
+    color: #cc0000 !important;
 }
 
 #kc-locale ul {
@@ -71,24 +71,24 @@ a#kc-current-locale-link::after {
 }
 
 #kc-logo {
-    background-color: rgba(39, 58, 70, 0.9);
-    height: calc(258px/3);
-    border-bottom: 1px solid rgba(107, 189, 194, 1);
+    background-color: #C31632;
+    height: calc(705px/7);
 }
 
 #kc-logo-wrapper {
-    background: url("../img/logo_secondary.png") top right no-repeat;
-    background-size: cover;
-    height: calc(258px/6);
-    width: calc(761px/6);
+    background: url("../img/LOGO-NA-Horizontal/LOGO-Hz-Blanc/LOGO-Hz-Blanc.png") top right no-repeat;
+    background-size: contain;
+    height: calc(705px/12);
+    width: calc(1962px/12);
+    margin-right: 30px;
 }
 
-div.kc-logo-text {
-    background-image: url("../img/keycloak-logo-text.png");
-    background-repeat: no-repeat;
-    width: 250px;
-    height: 38px;
-}
+/*div.kc-logo-text {*/
+    /*background-image: url("../img/keycloak-logo-text.png");*/
+    /*background-repeat: no-repeat;*/
+    /*width: 250px;*/
+    /*height: 38px;*/
+/*}*/
 
 div.kc-logo-text span {
     display: none;
@@ -121,8 +121,8 @@ primary: '#273A46',   // 39, 58, 70
 secondary: '#6BBDC2', //107, 189, 194,
 */
 #kc-content-wrapper {
-    background-color: rgba(39, 58, 70, 0.9);
-    border: 5px solid rgba(107, 189, 194, 1);
+    background-color: #FFFFFF;
+    border: 2px solid #E6E6E6;
     border-radius: 15px;
     margin: 0 10%;
     padding: 2% 0;
@@ -282,9 +282,10 @@ ol#kc-totp-settings li:first-of-type {
     #kc-locale {
         position: relative;
         width: 200px;
-        left: -230px;
         text-align: right;
         z-index: 9999;
+        top: 30px;
+        right: 40px;
     }
 }
 
@@ -350,4 +351,9 @@ ol#kc-totp-settings li:first-of-type {
         padding-top: 50px;
         top: 20%;
     }
+}
+
+.control-label{
+    color: #181716;
+    padding-bottom: 5px;
 }
