@@ -83,22 +83,26 @@ a#kc-current-locale-link::after {
     margin-right: 30px;
 }
 
-/*div.kc-logo-text {*/
-    /*background-image: url("../img/keycloak-logo-text.png");*/
-    /*background-repeat: no-repeat;*/
-    /*width: 250px;*/
-    /*height: 38px;*/
-/*}*/
+.kc-logo-text:after {
+    content: "Référentiel multimodal régional";
+    color: #181716 !important;
+    font-weight: bold;
+}
 
 div.kc-logo-text span {
     display: none;
 }
 
+.kc-logo-text{
+    margin-left: 45px;
+    margin-top: 15px;
+}
+
 #kc-header {
+    background: url("../img/LOGO-NA-Vertical/LOGO-Vertical-Noir/LOGO-Vertical-Noir.jpg") top left no-repeat;
+    background-size: contain;
     color: white;
-    text-shadow: 0 0 5px rgb(39, 58, 70);
-    text-decoration: underline;
-    text-underline: rgba(107, 189, 194, 1);
+    font-style: italic;
     overflow: visible;
     margin-left: 15%;
     white-space: nowrap;
