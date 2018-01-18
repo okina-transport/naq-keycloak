@@ -3,7 +3,7 @@
     <#if section = "title">
         ${msg("loginTitle",(realm.displayName!''))}
     <#elseif section = "header">
-        ${msg("loginTitleHtml",(realm.displayNameHtml!''))?no_esc}
+        Nouvelle Aquitaine - Référentiel Multimodal Régional
     <#elseif section = "form">
         <#if realm.password>
             <form id="kc-form-login" class="${properties.kcFormClass!}" onsubmit="login.disabled = true; return true;" action="${url.loginAction}" method="post">
