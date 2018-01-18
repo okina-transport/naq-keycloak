@@ -12,7 +12,7 @@ Once keycloak container is started, add an admin account with following command 
 
     docker exec naq-keycloak-server keycloak/bin/add-user-keycloak.sh -u admin -p password
     
-In case you run KC behind reverse proxy, one have to run following command :
+In case you run KC behind reverse proxy, one has to run following command :
 
     docker exec naq-keycloak-server /opt/jboss/keycloak/bin/jboss-cli.sh --connect "/subsystem=undertow/server=default-server/http-listener=default:write-attribute(name=proxy-address-forwarding, value=true)"
     
