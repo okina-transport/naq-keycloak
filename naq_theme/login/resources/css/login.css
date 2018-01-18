@@ -9,6 +9,11 @@
     color: #cc0000 !important;
 }
 
+.alert-warning {
+    color: #ec7a08 !important;
+}
+
+
 #kc-locale ul {
     display: none;
     position: absolute;
@@ -28,7 +33,7 @@
 #kc-locale ul li a {
     display: block;
     padding: 1px 11px;
-    color: #000 !important;
+    color: #181716 !important;
     border: 1px solid #fff;
     text-decoration: none;
     line-height: 20px;
@@ -51,6 +56,7 @@
 a#kc-current-locale-link {
     display: block;
     padding: 5px;
+    color: #181716 !important;
 }
 
 a#kc-current-locale-link:hover {
@@ -83,12 +89,6 @@ a#kc-current-locale-link::after {
     margin-right: 30px;
 }
 
-.kc-logo-text:after {
-    content: "Référentiel multimodal régional";
-    color: #181716 !important;
-    font-weight: bold;
-}
-
 div.kc-logo-text span {
     display: none;
 }
@@ -99,9 +99,6 @@ div.kc-logo-text span {
 }
 
 #kc-header {
-    background: url("../img/LOGO-NA-Vertical/LOGO-Vertical-Noir/LOGO-Vertical-Noir.jpg") top left no-repeat;
-    background-size: contain;
-    color: white;
     font-style: italic;
     overflow: visible;
     margin-left: 15%;
@@ -126,6 +123,7 @@ secondary: '#6BBDC2', //107, 189, 194,
 */
 #kc-content-wrapper {
     background-color: #FFFFFF;
+    color: #181716 !important;
     border: 2px solid #E6E6E6;
     border-radius: 15px;
     margin: 0 10%;
