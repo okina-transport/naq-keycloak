@@ -4,13 +4,15 @@
 }
 
 .alert-error {
-    background-color: #ffffff;
-    border-color: #cc0000;
     color: #cc0000 !important;
 }
 
 .alert-warning {
     color: #ec7a08 !important;
+}
+
+.alert-success {
+    color: #3f9c35 !important;
 }
 
 
